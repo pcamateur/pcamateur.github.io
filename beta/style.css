@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-html,body {
+html,
+body {
     list-style: none;
     text-decoration: none;
     font-size: 16px;
     color: #424242;
-    font-family: 'Roboto','Lucida Console', Monaco, monospace;
+    font-family: 'Roboto', 'Lucida Console', Monaco, monospace;
 }
 
 #header {
@@ -41,12 +42,13 @@ html,body {
     display: block;
     padding: 0 15px;
     border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .navli a:hover {
-    background-color: #eeeeee;
-    color: #f40;
-    /* font-weight: bold; */
+    background-color: #0099cc;
+    color: #f8f8f8;
 }
 
 #bodys {
@@ -64,4 +66,46 @@ html,body {
     height: 460px;
     margin: 10px auto;
     color: #fff;
+    /* border: 1px solid #fff; */
+    /* position: absolute; */
+}
+
+.contitle,
+.coninfo {
+    width: 1020px;
+    height: 200px;
+}
+
+.contitle {
+    margin: 15px auto 30px auto;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 180px;
+}
+
+.coninfo {
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.sentence1,
+.sentence2,
+.sentence3,
+.sentence4,
+.sentence5,
+.sentence6 {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sentence1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.importact {
+    font-weight: 800;
+    font-size: 24px;
 }
