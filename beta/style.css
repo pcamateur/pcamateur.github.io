@@ -58,7 +58,7 @@ body {
 }
 
 #bodys {
-    position: absolute;
+    /* position: absolute; */
 }
 
 #content {
@@ -66,8 +66,6 @@ body {
     height: 460px;
     margin: 10px auto;
     color: #fff;
-    /* border: 1px solid #fff; */
-    /* position: absolute; */
 }
 
 .contitle,
@@ -114,4 +112,58 @@ body {
 
 .sentence4 {
     font-weight: 450;
+}
+
+#about {
+    width: 100%;
+}
+
+.aboutlist {
+    width: 1024px;
+    height: 360px;
+    /* position: absolute; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cubahead {
+    width: 360px;
+    height: 360px;
+    /* background-color: aqua; */
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #0099cc;
+    font-weight: 500;
+    line-height: 360px;
+}
+
+.cubabody {
+    width: 664px;
+    height: 360px;
+    /* background-color: #424242; */
+    text-align: left;
+    color: #eee;
+}
+
+.cubabody code {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #424242;
+}
+
+.leftf {
+    float: left;
+}
+
+.rightf {
+    float: right;
+}
+
+.sj1 {
+    text-indent: 2em;
+}
+
+.sj2 {
+    text-indent: 4em;
 }
