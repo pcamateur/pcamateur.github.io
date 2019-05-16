@@ -167,3 +167,27 @@ body {
 .sj2 {
     text-indent: 4em;
 }
+
+.sj3 {
+    text-indent: 6em;
+}
+
+.symbol-color {
+    color: #aaa;
+}
+
+.element-color {
+    color: #FF7575;
+}
+
+.attribute-color {
+    color: #97CBFF;
+}
+
+.value-color {
+    color: #4EFEB3;
+}
+
+.content-color {
+    color: #fff;
+}
