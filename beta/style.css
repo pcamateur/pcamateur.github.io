@@ -139,7 +139,7 @@ body {
     width: 664px;
     height: 360px;
     /* background-color: #424242; */
-    text-align: left;
+    text-align: center;
     color: #eee;
 }
 
@@ -148,6 +148,8 @@ body {
     padding: 20px;
     display: inline-block;
     background-color: #424242;
+    box-shadow: 0 0 20px #333;
+    text-align: left;
 }
 
 .leftf {
