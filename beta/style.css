@@ -207,3 +207,7 @@ body {
 .monospace-font {
     font-family: 'monospace';
 }
+
+code p span {
+    white-space:nowrap;
+}
