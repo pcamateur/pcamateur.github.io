@@ -57,6 +57,7 @@ body {
     height: 480px;
     display: inline-block;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #content {
