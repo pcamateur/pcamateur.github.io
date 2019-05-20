@@ -168,6 +168,12 @@ body {
     text-indent: 4em;
 }
 
+.sj25 {
+    text-indent: 5em;
+    -moz-text-indent: 4.4em;
+    -webkit-text-indent: 4.55em;
+}
+
 .sj3 {
     text-indent: 6em;
 }
@@ -210,4 +216,32 @@ body {
 
 code p span {
     white-space:nowrap;
+}
+
+.tag-color {
+    color: #1eabf9;
+}
+
+.func-color {
+    color: #00ca92;
+}
+
+.funcv-color {
+    color: #00ffff;
+}
+
+.jsvalue-color {
+    color: #FFD700;
+}
+
+.jsstr-color {
+    color: #dc143c;
+}
+
+.jsnum-color {
+    color: #7FFF00;
+}
+
+.jsfunc-color {
+    color: #ff00ff;
 }
