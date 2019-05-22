@@ -246,3 +246,39 @@ code p span {
 .jsfunc-color {
     color: #ff00ff;
 }
+
+.pytag-c {
+    color: #0099cc;
+}
+
+.pyele-c {
+    color: yellow;
+}
+
+.pysym {
+    color: #aaa;
+}
+
+.pyfuncv-c {
+    color: #00ffff;
+}
+
+.funcb {
+    color: #ff00ff;
+}
+
+.pylabc {
+    color: #7FFF00;
+}
+
+.pytext {
+    color: #eee;
+}
+
+.pystr {
+    color: #FF8c00;
+}
+
+.funcva {
+    color: #adff2f;
+}
