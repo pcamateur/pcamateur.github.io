@@ -120,9 +120,17 @@ body {
 .aboutlist {
     width: 1024px;
     height: 360px;
-    /* position: absolute; */
     margin: 0 auto;
     text-align: center;
+}
+
+.aboutlistbg {
+    width: 100%;
+    height: 360px;
+}
+
+.aboutlistbgc {
+    background-color: #cdefec;
 }
 
 .cubahead {

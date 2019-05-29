@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #424242;
+    font-family: 'Roboto', 'Lucida Console', Monaco, monospace;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#navbar {
+    width: 1024px;
+    height: 120px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#navul {
+    list-style: none;
+}
+
+.navli {
+    display: inline-block;
+    height: 60px;
+    margin: 30px 15px;
+    line-height: 60px;
+}
+
+.navli a {
+    text-decoration: none;
+    color: #424242;
+    display: block;
+    padding: 0 15px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.navli a:hover {
+    background-color: #0099cc;
+    color: #f8f8f8;
+}
+
+#bodys {
+    background-color: #1eabf9;
+    width: 100%;
+    height: 480px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#content {
+    width: 1024px;
+    height: 460px;
+    margin: 10px auto;
+    color: #fff;
+}
+
+.contitle,
+.coninfo {
+    width: 1020px;
+    height: 200px;
+}
+
+.contitle {
+    margin: 15px auto;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 200px;
+}
+
+.coninfo {
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.sentence1,
+.sentence2,
+.sentence3,
+.sentence4,
+.sentence5,
+.sentence6 {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sentence1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.importact {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.sentence4 {
+    font-weight: 450;
+}
+
+#about {
+    width: 100%;
+}
+
+.aboutlist {
+    width: 1024px;
+    height: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutlistbg {
+    width: 100%;
+    height: 360px;
+}
+
+.aboutlistbgc {
+    background-color: #cdefec;
+}
+
+.cubahead {
+    width: 360px;
+    height: 360px;
+    /* background-color: aqua; */
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #0099cc;
+    font-weight: 500;
+    line-height: 360px;
+}
+
+.cubabody {
+    width: 664px;
+    height: 360px;
+    /* background-color: #424242; */
+    text-align: center;
+    color: #eee;
+}
+
+.cubabody code {
+    margin: 25px 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #424242;
+    box-shadow: 0 0 20px #333;
+    text-align: left;
+}
+
+.codesnumberlist {
+    display: inline-block;
+    width: 20px;
+    height: 320px;
+}
+
+.leftf {
+    float: left;
+}
+
+.rightf {
+    float: right;
+}
+
+.sj1 {
+    text-indent: 2em;
+}
+
+.sj2 {
+    text-indent: 4em;
+}
+
+.sj25 {
+    text-indent: 5em;
+    -moz-text-indent: 4.4em;
+    -webkit-text-indent: 4.55em;
+}
+
+.sj3 {
+    text-indent: 6em;
+}
+
+.symbol-color {
+    color: #aaa;
+}
+
+.element-color {
+    color: #FF7575;
+}
+
+.attribute-color {
+    color: #97CBFF;
+}
+
+.value-color {
+    color: #4EFEB3;
+}
+
+.content-color {
+    color: #fff;
+}
+
+.roboto-font {
+    font-family: 'Roboto';
+}
+
+.lucida-console-font {
+    font-family: 'Lucida Console';
+}
+
+.monaco-font {
+    font-family: 'Monaco';
+}
+
+.monospace-font {
+    font-family: 'monospace';
+}
+
+code p span {
+    white-space:nowrap;
+}
+
+.tag-color {
+    color: #1eabf9;
+}
+
+.func-color {
+    color: #00ca92;
+}
+
+.funcv-color {
+    color: #00ffff;
+}
+
+.jsvalue-color {
+    color: #FFD700;
+}
+
+.jsstr-color {
+    color: #dc143c;
+}
+
+.jsnum-color {
+    color: #7FFF00;
+}
+
+.jsfunc-color {
+    color: #ff00ff;
+}
+
+.pytag-c {
+    color: #0099cc;
+}
+
+.pyele-c {
+    color: yellow;
+}
+
+.pysym {
+    color: #aaa;
+}
+
+.pyfuncv-c {
+    color: #00ffff;
+}
+
+.funcb {
+    color: #ff00ff;
+}
+
+.pylabc {
+    color: #7FFF00;
+}
+
+.pytext {
+    color: #eee;
+}
+
+.pystr {
+    color: #FF8c00;
+}
+
+.funcva {
+    color: #adff2f;
+}
