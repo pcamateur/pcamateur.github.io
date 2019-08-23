@@ -1,0 +1,25 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ #count {
+     width: 800px;
+     height: 200px;
+     background: #bbb;
+     margin: 100px auto;
+     text-align: center;
+     line-height: 200px;
+     font-size: 24px;
+ }
+
+ #count span{
+     width: 60px;
+     height: 60px;
+     background: #EEE;
+     line-height: 60px;
+     display: inline-block;
+     vertical-align: middle;
+     box-shadow: 0 0 5px #EEE;
+     border-radius: 5px;
+ }
