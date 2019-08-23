@@ -1,16 +1,16 @@
 var oCount = document.getElementById("count");
 var oSpans = document.getElementsByTagName("span");
 
-var endTime = new Date('2019/08/25 09:10:33');
+var endTime = new Date('2019/08/25 00:00:00');
 
 var timer = null;
 
 clearInterval(timer);
-timer = setInterval(countTime,1000);
+timer = setInterval(countTime, 1000);
 
-function countTime(){
+function countTime() {
     var nowTime = new Date();
-    var lastTime = parseInt((endTime - nowTime)/1000);
+    var lastTime = parseInt((endTime - nowTime) / 1000);
 
     if (lastTime >= 0) {
         var day = parseInt(lastTime / 60 / 60 / 24);
@@ -22,12 +22,7 @@ function countTime(){
         oSpans[1].innerHTML = hour;
         oSpans[2].innerHTML = min;
         oSpans[3].innerHTML = sec;
-    }
-
-    else {
+    } else {
         clearInterval(timer);
     }
 }
-
-
-

@@ -3,7 +3,11 @@
      padding: 0;
  }
 
- #count {
+ #count,
+ #count1,
+ #count2,
+ #count3,
+ #count4 {
      width: 800px;
      height: 200px;
      background: #bbb;
@@ -13,7 +17,11 @@
      font-size: 24px;
  }
 
- #count span{
+ #count span,
+ #count1 span,
+ #count2 span,
+ #count3 span,
+ #count4 span {
      width: 60px;
      height: 60px;
      background: #EEE;
