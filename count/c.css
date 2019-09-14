@@ -19,11 +19,24 @@
      border-radius: 6px;
  }
  
+ #counts {
+     width: 1050px;
+     height: 200px;
+     background: #0F6;
+     margin: 100px auto;
+     text-align: center;
+     line-height: 200px;
+     font-size: 24px;
+     box-shadow: 0 0 5px #ccc;
+     border-radius: 6px;
+ }
+ 
  #count span,
  #count1 span,
  #count2 span,
  #count3 span,
- #count4 span {
+ #count4 span,
+ #counts span {
      width: 60px;
      height: 60px;
      background: #EEE;
