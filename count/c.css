@@ -19,7 +19,8 @@
      border-radius: 6px;
  }
  
- #counts {
+ #counts
+ #countai {
      width: 1050px;
      height: 200px;
      background: #0F6;
@@ -60,5 +61,9 @@
  }
  
  #count3 {
+     background-color: #F03;
+ }
+
+ #countai {
      background-color: #F03;
  }
