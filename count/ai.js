@@ -1,35 +1,35 @@
-var oCunts = document.getElementById("countb");
-var oSpans = document.getElementsByTagName("span");
+var oCunts = document.getElementById("countai");
+var oSpanss = document.getElementsByTagName("span");
 
-var startTime = new Date('2018/09/21 21:30:00');
+var startTimes = new Date('2004/11/14 21:30:00');
 
-var times = null;
+var timess = null;
 
-clearInterval(times);
-times = setInterval(countTimes, 1000);
+clearInterval(timess);
+timess = setInterval(countTimess, 1000);
 
-function countTimes() {
-    var nowTimes = new Date();
-    var lastTimes = parseInt((nowTimes - startTime) / 1000);
+function countTimess() {
+    var nowTimess = new Date();
+    var lastTimess = parseInt((nowTimess - startTimes) / 1000);
 
-    if (lastTimes >= 0) {
-        var days = parseInt(lastTimes / 60 / 60 / 24);
-        var hours = parseInt(lastTimes / 60 / 60 % 24);
-        var mins = parseInt(lastTimes / 60 % 60);
-        var secs = parseInt(lastTimes % 60);
-        var weeks = parseInt(lastTimes / 60 / 60 / 24 / 7);
-        var monthes = parseInt(lastTimes / 60 / 60 / 24 / 30);
-        var years = parseInt(lastTimes / 60 / 60 / 24 / 365);
+    if (lastTimess >= 0) {
+        var daysa = parseInt(lastTimess / 60 / 60 / 24);
+        var hoursa = parseInt(lastTimess / 60 / 60 % 24);
+        var minsa = parseInt(lastTimess / 60 % 60);
+        var secsa = parseInt(lastTimess % 60);
+        var weeksa = parseInt(lastTimess / 60 / 60 / 24 / 7);
+        var monthesa = parseInt(lastTimess / 60 / 60 / 24 / 30);
+        var yearsa = parseInt(lastTimess / 60 / 60 / 24 / 365);
 
-        oSpans[23].innerHTML = years;
-        oSpans[24].innerHTML = monthes;
-        oSpans[25].innerHTML = weeks;
-        oSpans[26].innerHTML = days;
-        oSpans[27].innerHTML = hours;
-        oSpans[28].innerHTML = mins;
-        oSpans[29].innerHTML = secs;
+        oSpanss[23].innerHTML = yearsa;
+        oSpanss[24].innerHTML = monthesa;
+        oSpanss[25].innerHTML = weeksa;
+        oSpanss[26].innerHTML = daysa;
+        oSpanss[27].innerHTML = hoursa;
+        oSpanss[28].innerHTML = minsa;
+        oSpanss[29].innerHTML = secsa;
 
     } else {
-        clearInterval(times);
+        clearInterval(timess);
     }
 }

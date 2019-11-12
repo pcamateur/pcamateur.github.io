@@ -37,7 +37,8 @@
  #count2 span,
  #count3 span,
  #count4 span,
- #counts span {
+ #counts span,
+ #countai span {
      width: 60px;
      height: 60px;
      background: #EEE;
