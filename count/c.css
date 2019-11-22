@@ -1,0 +1,70 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ #count,
+ #count1,
+ #count2,
+ #count3,
+ #count4 {
+     width: 800px;
+     height: 200px;
+     background: #ccc;
+     margin: 100px auto;
+     text-align: center;
+     line-height: 200px;
+     font-size: 24px;
+     box-shadow: 0 0 5px #ccc;
+     border-radius: 6px;
+ }
+ 
+ #counts,
+ #countai {
+     width: 1050px;
+     height: 200px;
+     background: #0F6;
+     margin: 100px auto;
+     text-align: center;
+     line-height: 200px;
+     font-size: 24px;
+     box-shadow: 0 0 5px #ccc;
+     border-radius: 6px;
+ }
+ 
+ #count span,
+ #count1 span,
+ #count2 span,
+ #count3 span,
+ #count4 span,
+ #counts span,
+ #countai span {
+     width: 60px;
+     height: 60px;
+     background: #EEE;
+     line-height: 60px;
+     display: inline-block;
+     vertical-align: middle;
+     box-shadow: 0 0 5px #EEE;
+     border-radius: 5px;
+ }
+ 
+ #count2 {
+     background-color: #0FC;
+ }
+ 
+ #count1 {
+     background-color: #FCF;
+ }
+ 
+ #count {
+     background-color: #09F;
+ }
+ 
+ #count3 {
+     background-color: #F03;
+ }
+
+ #countai {
+     background-color: #F03;
+ }
