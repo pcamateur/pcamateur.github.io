@@ -1,0 +1,23 @@
+*, html, body, div, span {
+    margin: 0;
+    padding: 0;
+}
+
+#mains {
+    height: 800px;
+    width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#execute {
+    width: 1024px;
+    max-height: 100%;
+}
+
+#show-1 {
+    height: 500px;
+    max-width: 1024px;
+    text-align: center;
+    word-break: break-all;
+}
