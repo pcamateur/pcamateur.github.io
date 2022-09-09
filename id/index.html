@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>ID Check</title>
         <link rel="stylesheet" href="./css/main.css">
@@ -14,9 +15,11 @@
             <div id="show-datas">
                 <div id="type-area">
                     <form id="types">
-                    Please input the Number: <input type="text" id="input-number" name="number" placeholder="Please input 17bit digits and without last number.">
-                    <button type="button" id="submits" onclick="test_show();">Check</button>
-                    <button type="button" id="clean" onclick="clean_form();">Clean</button>
+                        <label for="input-number">
+                            Please input the Number: <input type="text" id="input-number" name="number" placeholder="Please input 17bit digits and without last number.">
+                        </label>
+                        <button type="button" id="submits" onclick="test_show();">Check</button>
+                        <button type="button" id="clean" onclick="clean_form();">Clean</button>
                     </form>
                 </div>
 
@@ -24,6 +27,13 @@
                     <div id="showings">
 
                     </div>
+                    <div id="show-sex"></div>
+                    <div id="show-birthday"></div>
+                    <div id="show-address"></div>
+                    <div id="show-constellation"></div>
+                    <div id="show-zodiac"></div>
+                    <div id="show-age"></div>
+
                 </div>
 
                 <div id="alerts-m">
