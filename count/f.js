@@ -1,7 +1,7 @@
 var oCount3 = document.getElementById("count3");
 var oSpans3 = document.getElementsByTagName("span");
 
-var endTime3 = new Date('2020/11/14 00:00:00');
+var endTime3 = new Date('2024/11/14 00:00:00');
 
 var timer3 = null;
 

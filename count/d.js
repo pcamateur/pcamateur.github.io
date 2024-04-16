@@ -1,7 +1,7 @@
 var oCount1 = document.getElementById("count1");
 var oSpans1 = document.getElementsByTagName("span");
 
-var endTime1 = new Date('2020/07/31 00:00:00');
+var endTime1 = new Date('2024/07/31 00:00:00');
 
 var timer1 = null;
 
